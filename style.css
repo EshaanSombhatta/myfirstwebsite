@@ -1,0 +1,129 @@
+body:not(.text){
+  background-color: black;
+  overflow-x: hidden;
+}
+.title{
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.navbar{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color:#262525;
+  list-style-type: none;
+  position: sticky; 
+  top: 0vw;
+  right:0vw;
+  z-index: 1;
+}
+li {
+  margin:0px;
+  font-family: "Source Sans Pro";
+  border-right:20px;
+  border-left: 20px;
+  border-left-color: white;
+  border-right-color: white;
+}
+li .notactive{
+  float: right;
+  color:#6c6aff;
+}
+li .active{
+  float: left;
+}
+li a {
+  display: block;
+  padding: 1.5vw;
+  text-decoration: none;
+  font-size:2vw;
+}
+.whatisquizbowl{
+  width: 50%;
+  position: relative;
+  top:-10vw;
+  right:0vw;
+  opacity: 60%;
+}
+.headertext{
+  position:relative;
+  font-family:merriweather; 
+  color:white;
+  font-size: 5vw;
+}
+.text{
+  color:white;
+  font-family: roboto;
+  font-size:1.4vw;
+}
+#header1{
+  position:relative;
+  margin:0;
+  top:5vw;
+  left:51vw;
+}
+#text1{
+  width: 48vw;
+  position:relative;
+  margin-bottom: 0vw;
+  margin-right: 3vw;
+  top:5vw;
+  left:51vw;
+}
+.notactive:hover{
+  background-color: #000000;
+}
+.active:hover{
+  background-color: #111;
+  color:white;
+}
+.active{
+  background-color: #ffffff;
+  color: blue;
+}
+a:active {
+  background-color: #22ffae;
+}
+a:not(.active):visited{
+  color:#6c6aff;
+}
+.linkbutton{
+  background-color:#f6ffa2;
+  padding:1.5vw;
+  font-family: Source Sans Pro;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: -16vw;
+  left:16vw;
+  font-size: 2vw;
+  border-radius: 10vw;
+  border-style: solid;
+  border-color: transparent;
+}
+.linkbutton:visited{
+  color:black;
+}
+.linkbutton:hover{
+  background-color: gainsboro;
+  color:black;
+}
+hr{
+  border-color: white;
+  border-width: 0.1vw;
+  border-style: dashed;
+  position: relative;
+}
+.hr1{
+  position: relative;
+  top: 3.5vw;
+  left: 50%
+}
+.hr2{
+  position: relative;
+  top: -11.4vw;
+  left: 50%
+}
